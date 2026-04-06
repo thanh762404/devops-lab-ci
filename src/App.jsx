@@ -1,4 +1,4 @@
-import Calculator from '../../devops-lab-07/src/Calculator.jsx';
+import Calculator from 'Calculator.jsx';
 import './App.css';
 
 function App() {
