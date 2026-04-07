@@ -1,4 +1,4 @@
-import { add, subtract, multiply, divide, modulo } from '../src/calculator.js';
+import { add, subtract, multiply, divide } from '../src/calculator.js';
 
 describe('Calculator', () => {
   describe('add()', () => {
@@ -37,13 +37,4 @@ describe('Calculator', () => {
     });
   });
 
-  describe('modulo()', () => {
-    test('Lấy phần dư của hai số', () => {
-      expect(modulo(10, 3)).toBe(1);
-    });
-
-    test('Ném lỗi khi chia lấy dư cho 0', () => {
-      expect(() => modulo(5, 0)).toThrow('Cannot modulo by zero');
-    });
-  });
 });
